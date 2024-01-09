@@ -26,6 +26,9 @@ nav {
 /* Fine navbar */
 
 .container {
+    width: 100%;
+    text-align: center;
+    /* test */
 
     padding: 50px 32px;
 }
@@ -37,15 +40,16 @@ nav {
     flex-direction: column;
 
     gap: 25px;
+
 }
 
 .card {
-    width: 100%;
     height: 360px;
     /* test */
 
     background-color: #b5ddff;
     border-radius: 15px;
+
 }
 /* Fine Intro */
 
@@ -57,13 +61,18 @@ nav {
     background-color: #9792e4;
 }
 
+.planings{
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
 .planing {
-    width: 100%;
     height: 616px;
     /* test */
 
     color: white;
-
 }
 
 .planing.white {
@@ -72,3 +81,100 @@ nav {
     color: black;
 }
 /* Fine planing */
+
+
+
+/* Testimonial */
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.testimonial {
+    height: 500px;
+    /* test */
+
+    border-radius: 45px;
+    background-color: #9792e4;
+}
+
+/* Fine testimonial */
+
+
+
+/* Benefits */
+
+#benefits {
+    background-color: #9792e4;
+    color: white;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+
+    gap: 35px;
+}
+
+.benefit {
+    height: 396px;
+    /* test */
+
+    background-color: white;
+    border-radius: 15px;
+}
+/* Fine benefits */
+
+
+
+/* About us */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+
+    gap: 55px;
+}
+
+/* Fine about us */
+
+
+
+/* Get started */
+
+#get-started {
+    background-color: #9792e4;
+    color: white;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+/* Fine get started */
+
+
+
+/* Footer */
+
+footer {
+    background-color: #333333;
+    color: white;
+}
+
+footer p {
+    padding-block: 33px;
+}
+/* Fine footer */
+
+
+/* MEDIA QUERY */
+
+/* @media screen and (min-width: 768px) {
+
+} */
