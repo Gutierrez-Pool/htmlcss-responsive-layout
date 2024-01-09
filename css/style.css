@@ -24,3 +24,51 @@ nav {
     color: white;
 }
 /* Fine navbar */
+
+.container {
+
+    padding: 50px 32px;
+}
+
+/* Intro */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.card {
+    width: 100%;
+    height: 360px;
+    /* test */
+
+    background-color: #b5ddff;
+    border-radius: 15px;
+}
+/* Fine Intro */
+
+
+
+/* Planing */
+
+#planing {
+    background-color: #9792e4;
+}
+
+.planing {
+    width: 100%;
+    height: 616px;
+    /* test */
+
+    color: white;
+
+}
+
+.planing.white {
+    background-color: white;
+    border-radius: 45px;
+    color: black;
+}
+/* Fine planing */
