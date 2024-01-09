@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
 
 /* I breakpoint suggeriti sono:
 Tablet: 768px
@@ -46,6 +49,7 @@ nav {
 .card {
     height: 360px;
     /* test */
+    /* display: flex; */
 
     background-color: #b5ddff;
     border-radius: 15px;
@@ -96,6 +100,8 @@ nav {
 .testimonial {
     height: 500px;
     /* test */
+    display: flex;
+    flex-direction: column;
 
     border-radius: 45px;
     background-color: #9792e4;
@@ -170,11 +176,57 @@ footer {
 footer p {
     padding-block: 33px;
 }
+
+footer a {
+    color: #9792e4;
+}
 /* Fine footer */
 
 
-/* MEDIA QUERY */
+/************************************************
+    MEDIA QUERY 
+*************************************************/
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
-} */
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card:first-child {
+        width: calc(100% / 3 * 2 - 10px);
+    }
+
+    .card {
+        width: calc(100% / 3 - 25px / 3 * 2);
+    }
+
+    .box {
+        text-align: justify;
+    }
+
+    .testimonial {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .benefits {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefit {
+        width: calc(100% / 2 - 35px / 3 * 2);
+    }
+
+    .about-us {
+        flex-direction: row;
+    }
+
+
+
+}
