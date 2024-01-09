@@ -3,3 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* I breakpoint suggeriti sono:
+Tablet: 768px
+Laptop: 992px
+Desktop: 1200px */
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 30px;
+
+    background-color: #0084fd;
+    color: white;
+}
+/* Fine navbar */
