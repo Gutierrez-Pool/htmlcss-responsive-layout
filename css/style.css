@@ -187,6 +187,9 @@ footer a {
     MEDIA QUERY 
 *************************************************/
 
+
+/******** TABLET *******/
+
 @media screen and (min-width: 768px) {
 
     .cards {
@@ -226,7 +229,25 @@ footer a {
     .about-us {
         flex-direction: row;
     }
+}
 
 
 
+/******** DESKTOP ********/
+
+@media screen and (min-width: 992px) {
+
+    .card:first-child {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .planings {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .benefit {
+        width: calc(100% / 3 - 35px);
+    }
 }
