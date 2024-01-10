@@ -9,7 +9,9 @@ body {
 }
 
 .btn {
-    padding: 15px 50px;
+    width: fit-content;
+
+    padding: 10px 50px;
 
     text-align: center;
     
@@ -24,31 +26,44 @@ body {
 }
 
 .container {
-    padding: 50px 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 45px;
 }
 
 p {
     line-height: 1.5em;
 }
 
+#intro,
+#planing,
+#testimonials,
+#benefits,
+#about-us,
+#get-started,
+footer {
+    padding: 50px 30px;
+}
 
 
 /* Navbar */
+
+header {
+    background-color: #0084fd;
+    padding: 15px 30px;
+}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 15px 30px;
+    margin-left: auto;
+    margin-right: auto;
 
-    background-color: #0084fd;
     color: white;
 }
 
@@ -161,7 +176,6 @@ nav {
 }
 
 .planing.white {
-
     gap: 27px;
     padding: 25px;
     text-align: center;
@@ -264,7 +278,7 @@ nav {
 
     text-align: left;
     padding: 30px;
-    gap: 28px;
+    gap: 20px;
 
     background-color: white;
     border-radius: 15px;
@@ -275,7 +289,7 @@ nav {
 }
 
 .benefit h3 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .benefit span {
@@ -341,6 +355,12 @@ nav {
 
     color: #9792e4;
 }
+
+.about-us-img .btn {
+    text-align: left;
+
+    padding: 10px 15px;
+}
 /* Fine about us */
 
 
@@ -356,7 +376,45 @@ nav {
     display: flex;
     flex-direction: column;
 
+    align-items: center;
+    text-align: center;
+
     gap: 25px;
+}
+
+.get-started h3 {
+    font-weight: 100;
+}
+
+.get-started p {
+    max-width: 475px;
+
+    text-align: center;
+}
+
+.get-started .btn {
+    background-color: white;
+}
+
+.get-started span {
+    font-size: 80px;
+    font-weight: bold;
+
+    color: #fdc15f;
+}
+
+.get-started .btn a {
+    font-weight: bold;
+    color: #9792e4;
+}
+
+.get-started p a {
+    color: white;
+}
+
+.get-started .fa-solid {
+    font-size: 5px;
+    vertical-align: middle;
 }
 /* Fine get started */
 
@@ -364,9 +422,16 @@ nav {
 
 /* Footer */
 
-footer {
+footer {    
+    text-align: center;
+
     background-color: #333333;
     color: white;
+}
+
+footer .container {
+    max-width: 415px;
+
 }
 
 footer p {
@@ -377,6 +442,13 @@ footer a {
     color: #9792e4;
 }
 /* Fine footer */
+
+
+
+
+
+
+
 
 
 /************************************************
@@ -411,6 +483,8 @@ footer a {
     /* Testimonial */
     .testimonial {
         flex-direction: row;
+
+        gap: 50px;
     }
 
     .testimonial-text {
@@ -516,9 +590,6 @@ footer a {
     .planing {
         width: calc(100% / 2 - 40px);
     }
-
-
-
 
     /* Benefits */
     .benefit {
